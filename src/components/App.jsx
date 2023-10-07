@@ -13,6 +13,7 @@ export const App = () => {
     const contactsFormLocalStorage = JSON.parse(
       localStorage.getItem(LOCAL_KEY)
     );
+
     if (contactsFormLocalStorage.length) {
       console.log('pyk');
       setContacts(contactsFormLocalStorage);
